@@ -19,7 +19,7 @@ spec:
                 - name: ghcr-creds
             containers:
                 - name: transactions
-                  image: ghcr.io/feranmi-ige/module_6_part3-transactions:latest
+                  image: ghcr.io/edwrdrvera/module_6_part3-transactions:8c35a6f0e173b8f2b73f00cb39ddc8b7647ec7be
                   imagePullPolicy: IfNotPresent
                   ports:
                       - name: http
@@ -44,3 +44,4 @@ spec:
                       limits:
                           cpu: "500m"
                           memory: "512Mi"
+
