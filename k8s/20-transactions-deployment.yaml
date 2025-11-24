@@ -19,7 +19,7 @@ spec:
                 - name: ghcr-creds
             containers:
                 - name: transactions
-                  image: ghcr.io/edwrdrvera/module_6_part3-transactions:e90c4deae3ee38ccce4071b10495ab603af05648
+                  image: ghcr.io/edwrdrvera/module_6_part3-transactions:be5520fd75bfb860367a7efefb7816466e00331e
                   imagePullPolicy: IfNotPresent
                   ports:
                       - name: http
