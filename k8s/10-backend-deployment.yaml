@@ -19,7 +19,7 @@ spec:
                 - name: ghcr-creds
             containers:
                 - name: backend
-                  image: ghcr.io/edwrdrvera/module_6_part3-backend:be5520fd75bfb860367a7efefb7816466e00331e
+                  image: ghcr.io/edwrdrvera/module_6_part3-backend:45dc681cea7b90e7f3ded1ca9dd994e97f406ef3
                   imagePullPolicy: IfNotPresent
                   ports:
                       - name: http
